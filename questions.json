@@ -1,0 +1,32 @@
+{
+  "Zdravie a fitnes": [
+    {
+      "question": "Aký je tvoj obľúbený spôsob cvičenia a prečo?"
+    },
+    {
+        "question": "otazka2"
+    }
+  ],
+  "Vzdelávanie a učenie": [
+    {
+      "question": "Aký je tvoj obľúbený predmet a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob učenia sa a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zlepšovania pamäti a prečo?"
+    }
+  ],
+  "Hobby a záujmy": [
+    {
+      "question": "Aké je tvoje obľúbené hobby a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob trávenia voľného času a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob relaxácie a prečo?"
+    }
+  ]
+}
