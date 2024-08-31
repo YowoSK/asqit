@@ -10,6 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
         categorySelect.appendChild(option);
       });
       updateCategoryStatus();
+    })
+    .catch((error) => {
+      console.error("Error fetching categories:", error);
+      document.getElementById("question").innerText =
+        "Error loading categories. Please try again later.";
     });
 });
 
@@ -36,6 +41,11 @@ function updateCategoryStatus() {
         document.querySelector("button").disabled = true;
         document.getElementById("resetButton").style.display = "block";
       }
+    })
+    .catch((error) => {
+      console.error("Error updating category status:", error);
+      document.getElementById("question").innerText =
+        "Error updating category status. Please try again later.";
     });
 }
 
@@ -46,13 +56,24 @@ function getQuestion() {
 
   setTimeout(() => {
     fetch(`/question?category=${category}`)
-      .then((response) => response.json())
+      .then((response) => {
+        if (!response.ok) {
+          return response.json().then((error) => {
+            throw new Error(error.error.message);
+          });
+        }
+        return response.json();
+      })
       .then((data) => {
         questionDiv.innerText = data.question;
         questionDiv.style.opacity = 1; // Start fade-in
         if (data.question.includes("No more questions available")) {
           updateCategoryStatus();
         }
+      })
+      .catch((error) => {
+        questionDiv.innerText = `Error: ${error.message}`;
+        questionDiv.style.opacity = 1; // Start fade-in
       });
   }, 1000);
 }
@@ -66,5 +87,10 @@ function resetQuestions() {
       document.querySelector("button").disabled = false;
       document.getElementById("resetButton").style.display = "none";
       updateCategoryStatus();
+    })
+    .catch((error) => {
+      console.error("Error resetting questions:", error);
+      document.getElementById("question").innerText =
+        "Error resetting questions. Please try again later.";
     });
 }
