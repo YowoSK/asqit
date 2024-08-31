@@ -1,87 +1,87 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+h1 {
+  color: #333;
+  animation: fadeIn 700ms ease-in-out;
+}
+#question {
+  font-size: 1.5em;
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 700ms ease-in-out;
+  opacity: 1;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.1s, transform 0.1s;
+}
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+select {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  transition: background-color 0.1s, transform 0.1s;
+}
+.exhausted {
+  background-color: rgb(255, 75, 75);
+  color: white;
+}
+#resetButton {
+  display: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.1s, transform 0.1s;
+  margin-top: 20px;
+}
+#resetButton:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  h1 {
-    color: #333;
-    animation: fadeIn 700ms ease-in-out;
-  }
-  #question {
-    font-size: 1.5em;
-    margin: 20px 0;
-    padding: 20px;
-    border: 2px solid #333;
-    border-radius: 2px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: opacity 700ms ease-in-out;
+  to {
     opacity: 1;
   }
-  button {
-    padding: 10px 20px;
-    font-size: 1em;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: background-color 0.1s, transform 0.1s;
-  }
-  button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-  }
-  select {
-    padding: 10px;
-    font-size: 1em;
-    margin-bottom: 20px;
-    transition: background-color 0.1s, transform 0.1s;
-  }
-  .exhausted {
-    background-color: rgb(255, 75, 75);
-    color: white;
-  }
-  #resetButton {
-    display: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    color: #fff;
-    background-color: #28a745;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: background-color 0.1s, transform 0.1s;
-    margin-top: 20px;
-  }
-  #resetButton:hover {
-    background-color: #218838;
-    transform: scale(1.05);
-  }
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  ::-moz-selection {
-    /* Code for Firefox */
-    color: rgb(0, 255, 17);
-    background: rgba(0, 0, 0, 0.050)
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: rgb(0, 255, 17);
+  background: rgba(0, 0, 0, 0.05);
 }
 ::-webkit-selection {
-    /* Code for Chrome and Safari */
-    color: rgb(0, 255, 17);
-    background: rgba(0, 0, 0, 0.050)
+  /* Code for Chrome and Safari */
+  color: rgb(0, 255, 17);
+  background: rgba(0, 0, 0, 0.05);
 }
-  ::selection {
-    color: rgb(0, 255, 17);
-    background: rgba(0, 0, 0, 0.050)
-  }
+::selection {
+  color: rgb(0, 255, 17);
+  background: rgba(0, 0, 0, 0.05);
+}
