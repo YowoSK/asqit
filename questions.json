@@ -1,32 +1,261 @@
 {
-  "Zdravie a fitnes": [
+  "Cestovanie a dobrodružstvo": [
     {
-      "question": "Aký je tvoj obľúbený spôsob cvičenia a prečo?"
+      "question": "Aký je tvoj obľúbený spôsob cestovania a prečo?"
     },
     {
-        "question": "otazka2"
+      "question": "Aké je tvoje obľúbené miesto, kde si bol/a a prečo?"
+    },
+    {
+      "question": "Aký je tvoj najobľúbenejší cestovný zážitok a prečo?"
+    },
+    {
+      "question": "Aké je tvoje obľúbené miesto na relax a prečo?"
+    },
+    {
+      "question": "Aký je tvoj najobľúbenejší dobrodružný film a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený outdoorový šport a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený národný park a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob trávenia voľného času na cestách a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob objavovania nových miest a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený cestovný blog alebo kniha a prečo?"
     }
   ],
-  "Vzdelávanie a učenie": [
+  "Kariéra a práca": [
     {
-      "question": "Aký je tvoj obľúbený predmet a prečo?"
+      "question": "Aký je tvoj obľúbený projekt, na ktorom si pracoval/a a prečo?"
     },
     {
-      "question": "Aký je tvoj obľúbený spôsob učenia sa a prečo?"
+      "question": "Aký je tvoj obľúbený spôsob relaxácie po náročnom dni v práci a prečo?"
     },
     {
-      "question": "Aký je tvoj obľúbený spôsob zlepšovania pamäti a prečo?"
+      "question": "Aký je tvoj obľúbený spôsob motivácie v práci a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob riešenia konfliktov v práci a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania stresu v práci a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zlepšovania svojich pracovných zručností a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob komunikácie v práci a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania pracovnej záťaže a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania časových plánov a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania pracovných výziev a prečo?"
     }
   ],
-  "Hobby a záujmy": [
+  "Hudba a umenie": [
     {
-      "question": "Aké je tvoje obľúbené hobby a prečo?"
+      "question": "Aký je tvoj obľúbený hudobný žáner a prečo?"
     },
     {
-      "question": "Aký je tvoj obľúbený spôsob trávenia voľného času a prečo?"
+      "question": "Aký je tvoj obľúbený hudobný nástroj a prečo?"
     },
     {
-      "question": "Aký je tvoj obľúbený spôsob relaxácie a prečo?"
+      "question": "Aký je tvoj obľúbený umelec alebo skupina a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený koncert, na ktorom si bol/a a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený film alebo divadelná hra a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený umelecký štýl a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený umelecký materiál na prácu a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený umelecký výstav a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený umelecký projekt, na ktorom si pracoval/a a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob vyjadrovania cez umenie a prečo?"
+    }
+  ],
+  "Vzťahy a rodina": [
+    {
+      "question": "Kto je tvoj obľúbený člen rodiny a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob trávenia času s rodinou a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený rodinný zvyk a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob komunikácie s rodinou a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob riešenia konfliktov v rodine a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob podpory členov rodiny a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob trávenia času s priateľmi a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob komunikácie s priateľmi a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob riešenia konfliktov s priateľmi a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob podpory priateľov a prečo?"
+    }
+  ],
+  "Osobný rast a sebapoznanie": [
+    {
+      "question": "Aký je tvoj obľúbený spôsob sebapoznania a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania stresu a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania výziev a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania strachu a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania zlyhaní a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania kritiky a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania úspechu a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania zmeny a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania neistoty a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob zvládania tlaku a prečo?"
+    },
+    {
+      "question": "Stalo sa ti že si niekomu zachránil/a život?"
+    }
+  ],
+  "Osobné záujmy a koníčky": [
+    {
+      "question": "Aký je tvoj obľúbený spôsob trávenia voľného času?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený film alebo kniha a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený šport alebo fyzická aktivita?"
+    },
+    {
+      "question": "Aké je tvoje obľúbené jedlo a prečo?"
+    },
+    {
+      "question": "Aké je tvoje obľúbené miesto, kde si bol/a na dovolenke?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený hudobný žáner alebo skupina?"
+    },
+    {
+      "question": "Aké je tvoje obľúbené ročné obdobie a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob relaxácie?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený druh umenia alebo kultúry?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený spôsob, ako pomáhať ostatným?"
+    }
+  ],
+  "Ciele a ambície": [
+    {
+      "question": "Aký je tvoj najväčší osobný cieľ?"
+    },
+    {
+      "question": "Kde sa vidíš o 5 rokov?"
+    },
+    {
+      "question": "Aký je tvoj profesionálny sen?"
+    },
+    {
+      "question": "Aké sú tvoje ciele v oblasti vzdelávania?"
+    },
+    {
+      "question": "Aký je tvoj cieľ v oblasti zdravia alebo fitnes?"
+    },
+    {
+      "question": "Aký je tvoj cieľ v oblasti osobného rozvoja?"
+    },
+    {
+      "question": "Aký je tvoj cieľ v oblasti rodiny alebo vzťahov?"
+    },
+    {
+      "question": "Aký je tvoj cieľ v oblasti dobrodružstva alebo cestovania?"
+    },
+    {
+      "question": "Aký je tvoj cieľ v oblasti financií alebo bohatstva?"
+    },
+    {
+      "question": "Aký je tvoj cieľ v oblasti duchovného alebo náboženského rozvoja?"
+    }
+  ],
+  "Názory a hodnoty": [
+    {
+      "question": "Aká je tvoja filozofia života?"
+    },
+    {
+      "question": "Aké sú tvoje názory na politiku?"
+    },
+    {
+      "question": "Aké sú tvoje názory na náboženstvo?"
+    },
+    {
+      "question": "Aké sú tvoje názory na rodinu a manželstvo?"
+    },
+    {
+      "question": "Aké sú tvoje názory na vzdelávanie?"
+    },
+    {
+      "question": "Aké sú tvoje názory na zdravie a fitnes?"
+    },
+    {
+      "question": "Aké sú tvoje názory na peniaze a bohatstvo?"
+    },
+    {
+      "question": "Aké sú tvoje názory na prácu a kariéru?"
+    },
+    {
+      "question": "Aké sú tvoje názory na umenie a kultúru?"
+    },
+    {
+      "question": "Aké sú tvoje názory na dobrodružstvo a cestovanie?"
     }
   ]
 }
