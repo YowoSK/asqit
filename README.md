@@ -60,3 +60,4 @@ This project is licensed under the MIT License. See the LICENSE file to see deta
 
 ## Authors and Contributors:
 - Filip Šulík
+- Zuzana Mikolajčíková
