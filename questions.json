@@ -29,6 +29,12 @@
     },
     {
       "question": "Aký je tvoj obľúbený cestovný blog alebo kniha a prečo?"
+    },
+    {
+      "question": "Aký je tvoj cieľ v oblasti dobrodružstva alebo cestovania?"
+    },
+    {
+      "question": "Aké je najzaujímavejšie miesto, kam si cestoval, a prečo?"
     }
   ],
   "Kariéra a práca": [
@@ -61,6 +67,15 @@
     },
     {
       "question": "Aký je tvoj obľúbený spôsob zvládania pracovných výziev a prečo?"
+    },
+    {
+      "question": "Aký je tvoj profesionálny sen?"
+    },
+    {
+      "question": "Aké sú tvoje ciele v oblasti vzdelávania?"
+    },
+    {
+      "question": "Aké sú tvoje názory na prácu a kariéru?"
     }
   ],
   "Hudba a umenie": [
@@ -93,6 +108,15 @@
     },
     {
       "question": "Aký je tvoj obľúbený spôsob vyjadrovania cez umenie a prečo?"
+    },
+    {
+      "question": "Aký je tvoj obľúbený hudobný žáner alebo skupina?"
+    },
+    {
+      "question": "Aká pesnička ti láme srdce zakaždým, keď ju počuješ?"
+    },
+    {
+      "question": "Aká pesnička ťa okamžite rozosmeje?"
     }
   ],
   "Vzťahy a rodina": [
@@ -125,6 +149,24 @@
     },
     {
       "question": "Aký je tvoj obľúbený spôsob podpory priateľov a prečo?"
+    },
+    {
+      "question": "Aká je tvoja rodina? (Ste si blízki?)"
+    },
+    {
+      "question": "Kto vo tvojom živote ťa miluje bezpodmienečne?"
+    },
+    {
+      "question": "Kto ťa najviac zranil bez toho, aby si to uvedomil?"
+    },
+    {
+      "question": "Kto je niekto, kto bol stálou oporou v tvojom živote?"
+    },
+    {
+      "question": "Kto sú tvoji najvernejší priatelia?"
+    },
+    {
+      "question": "Kto ťa v živote najlepšie pochopil?"
     }
   ],
   "Osobný rast a sebapoznanie": [
@@ -160,6 +202,153 @@
     },
     {
       "question": "Stalo sa ti že si niekomu zachránil/a život?"
+    },
+    {
+      "question": "Sú ľudia lepší v tvorení alebo v ničení?"
+    },
+    {
+      "question": "Koho si myslíš, že si najviac zranil?"
+    },
+    {
+      "question": "Akého sna si vzdal?"
+    },
+    {
+      "question": "Čo pre teba znamená žiť svoj sen?"
+    },
+    {
+      "question": "Radšej by si mal viac peňazí alebo času?"
+    },
+    {
+      "question": "Aké bolestivé emócie cítiš najčastejšie?"
+    },
+    {
+      "question": "Aká je pre teba najväčšia záhada života?"
+    },
+    {
+      "question": "Aký je najlepší kompliment, aký si kedy dostal?"
+    },
+    {
+      "question": "Aký je najlepší darček, aký si kedy dostal?"
+    },
+    {
+      "question": "Aká je najbláznivejšia vec, ktorú si kedy urobil?"
+    },
+    {
+      "question": "Aká je najhoršia vec, ktorú si kedy urobil?"
+    },
+    {
+      "question": "Aká je tvoja najobľúbenejšia spomienka na nás?(ako partia alebo pár)"
+    },
+    {
+      "question": "Keby si mal pri každom spánku ten istý sen, aký sen by si chcel mať?"
+    },
+    {
+      "question": "Čo je niečo, čo ti vždy dáva pocit bezpečia?"
+    },
+    {
+      "question": "Čo je niečo, čo ti vždy dáva pocit, že si milovaný?"
+    },
+    {
+      "question": "Komu zo všetkých ľudí najviac dôveruješ?"
+    },
+    {
+      "question": "Čo by si chcel zažiť znova po prvýkrát?"
+    },
+    {
+      "question": "Veríš, že muži a ženy môžu byť len platonickí priatelia?"
+    },
+    {
+      "question": "Ako definuješ krásu?"
+    },
+    {
+      "question": "Keby si si mohol vybrať, že budeš jeden deň robiť čokoľvek, čo by to bolo?"
+    },
+    {
+      "question": "Keby si mohol zasvätiť svoj život riešeniu jedného problému, aký problém by si si vybral?"
+    },
+    {
+      "question": "Akú udalosť z minulosti by si chcel vidieť na zázname? (videozáznam)"
+    },
+    {
+      "question": "Aká spomienka ti prináša najväčší pocit pohodlia a prečo?"
+    },
+    {
+      "question": "Ako ťa chyba, ktorú si urobil, formovala na človeka, akým si dnes?"
+    },
+    {
+      "question": "Čo pre teba znamená zraniteľnosť a ako si s ňou komfortný?"
+    },
+    {
+      "question": "Aká je najviac „ty“ vec, ktorú si ma videl robiť?"
+    },
+    {
+      "question": "Existujú spomienky stále, aj keď ich zabudneš?"
+    },
+    {
+      "question": "Čo si najviac ceníš na ľuďoch?"
+    },
+    {
+      "question": "Môže byť človek šťastný, ak nikdy nezažil smútok?"
+    },
+    {
+      "question": "Aká je najväčšia príležitosť, ktorú si nikdy nevyužil?"
+    },
+    {
+      "question": "Veríš, že si každý zaslúži druhú šancu?"
+    },
+    {
+      "question": "Kam chodíš, aby si sa cítil najviac sám sebou?"
+    },
+    {
+      "question": "Keby si mohol ísť späť a prežiť jeden deň bez toho, aby si ho zmenil, aký deň by to bol?"
+    },
+    {
+      "question": "Aký moment v tvojom živote ti dal pocit, že si naozaj videný taký, aký si?"
+    },
+    {
+      "question": "Keby si mohol svojmu mladšiemu ja povedať jednu vec, čo by to bolo?"
+    },
+    {
+      "question": "Aká vôňa ti okamžite prináša príval dobrých spomienok?"
+    },
+    {
+      "question": "Čo je niečo, čo ti vždy dáva pocit domova, nech si kdekoľvek?"
+    },
+    {
+      "question": "Aká rada ťa sprevádza celým životom?"
+    },
+    {
+      "question": "Čo si niekomu odpustil, aj keď sa ti za to nikdy neospravedlnil?"
+    },
+    {
+      "question": "Keby si teraz mohol objať jednu osobu, kto by to bol a prečo?"
+    },
+    {
+      "question": "Kedy si naposledy plakal od radosti a čo urobilo ten moment takým špeciálnym?"
+    },
+    {
+      "question": "Kto bol prvý človek, ktorý v teba veril, a ako to zmenilo tvoj život?"
+    },
+    {
+      "question": "Kedy si naposledy cítil čistú, jednoduchú radosť?"
+    },
+    {
+      "question": "Keby si mohol stráviť ešte jeden deň s niekým, koho si stratil, ako by si ho strávil?"
+    },
+    {
+      "question": "Aký sen máš, ale bojíš sa ho nahlas povedať, pretože pre teba znamená tak veľa?"
+    },
+    {
+      "question": "Aký aspekt tvojej osobnosti by si chcel zlepšiť, keby si mohol?"
+    },
+    {
+      "question": "Máš problém odpustiť sám sebe?"
+    },
+    {
+      "question": "Aké rozhodnutie by si si prial urobiť znova?"
+    },
+    {
+      "question": "Keby si mal stroj času, išiel by si do minulosti alebo by si navštívil budúcnosť?"
     }
   ],
   "Osobné záujmy a koníčky": [
@@ -192,6 +381,12 @@
     },
     {
       "question": "Aký je tvoj obľúbený spôsob, ako pomáhať ostatným?"
+    },
+    {
+      "question": "Čo rád robíš vo svojom voľnom čase?"
+    },
+    {
+      "question": "Akú tradíciu, ktorú dodržiavaš, máš najradšej?"
     }
   ],
   "Ciele a ambície": [
@@ -224,6 +419,9 @@
     },
     {
       "question": "Aký je tvoj cieľ v oblasti duchovného alebo náboženského rozvoja?"
+    },
+    {
+      "question": "Keby si mohol zasvätiť svoj život riešeniu jedného problému, aký problém by si si vybral?"
     }
   ],
   "Názory a hodnoty": [
