@@ -1,22 +1,34 @@
+let userId;
+
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/categories")
+  startGame();
+});
+
+function startGame() {
+  fetch("/start")
     .then((response) => response.json())
     .then((data) => {
-      const categorySelect = document.getElementById("categorySelect");
-      data.forEach((category) => {
-        const option = document.createElement("option");
-        option.value = category;
-        option.text = category;
-        categorySelect.appendChild(option);
-      });
-      updateCategoryStatus();
-    })
-    .catch((error) => {
-      console.error("Error fetching categories:", error);
-      document.getElementById("question").innerText =
-        "Error loading categories. Please try again later.";
+      userId = data.userId;
+      console.log("User ID:", userId);
+      fetch("/categories")
+        .then((response) => response.json())
+        .then((data) => {
+          const categorySelect = document.getElementById("categorySelect");
+          data.forEach((category) => {
+            const option = document.createElement("option");
+            option.value = category;
+            option.text = category;
+            categorySelect.appendChild(option);
+          });
+          updateCategoryStatus();
+        })
+        .catch((error) => {
+          console.error("Error fetching categories:", error);
+          document.getElementById("question").innerText =
+            "Error loading categories. Please try again later.";
+        });
     });
-});
+}
 
 function updateCategoryStatus() {
   fetch("/category-status")
@@ -55,7 +67,7 @@ function getQuestion() {
   questionDiv.style.opacity = 0; // Start fade-out
 
   setTimeout(() => {
-    fetch(`/question?category=${category}`)
+    fetch(`/question?category=${category}&userId=${userId}`)
       .then((response) => {
         if (!response.ok) {
           return response.json().then((error) => {
