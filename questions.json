@@ -1,7 +1,7 @@
 {
   "Cestovanie a dobrodružstvo": [
     {
-      "question": "Aký je tvoj obľúbený spôsob cestovania a prečo?"
+      "question": "Prečo ZSSK?"
     },
     {
       "question": "Aké je tvoje obľúbené miesto, kde si bol/a a prečo?"
@@ -13,25 +13,16 @@
       "question": "Aké je tvoje obľúbené miesto na relax a prečo?"
     },
     {
-      "question": "Aký je tvoj najobľúbenejší dobrodružný film a prečo?"
-    },
-    {
-      "question": "Aký je tvoj obľúbený outdoorový šport a prečo?"
-    },
-    {
-      "question": "Aký je tvoj obľúbený národný park a prečo?"
-    },
-    {
       "question": "Aký je tvoj obľúbený spôsob trávenia voľného času na cestách a prečo?"
     },
     {
-      "question": "Aký je tvoj obľúbený spôsob objavovania nových miest a prečo?"
+      "question": "Rád objavuješ nové miesta?"
     },
     {
       "question": "Aký je tvoj obľúbený cestovný blog alebo kniha a prečo?"
     },
     {
-      "question": "Aký je tvoj cieľ v oblasti dobrodružstva alebo cestovania?"
+      "question": "Aký je tvoj cieľ v oblasti cestovania?"
     },
     {
       "question": "Aké je najzaujímavejšie miesto, kam si cestoval, a prečo?"
@@ -39,22 +30,19 @@
   ],
   "Kariéra a práca": [
     {
-      "question": "Aký je tvoj obľúbený projekt, na ktorom si pracoval/a a prečo?"
+      "question": "Aký je tvoj obľúbený projekt, na ktorom si pracoval/a?"
     },
     {
       "question": "Aký je tvoj obľúbený spôsob relaxácie po náročnom dni v práci a prečo?"
     },
     {
-      "question": "Aký je tvoj obľúbený spôsob motivácie v práci a prečo?"
+      "question": "Aký je tvoj obľúbený spôsob motivácie v práci a prečo sa chceš v práci zabiť?"
     },
     {
-      "question": "Aký je tvoj obľúbený spôsob riešenia konfliktov v práci a prečo?"
+      "question": "Ako riešiš konflikty v práci a prečo?"
     },
     {
-      "question": "Aký je tvoj obľúbený spôsob zvládania stresu v práci a prečo?"
-    },
-    {
-      "question": "Aký je tvoj obľúbený spôsob zlepšovania svojich pracovných zručností a prečo?"
+      "question": "Ako zvládaš stres v práci?"
     },
     {
       "question": "Aký je tvoj obľúbený spôsob komunikácie v práci a prečo?"
