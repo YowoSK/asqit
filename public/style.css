@@ -71,17 +71,10 @@ select {
     opacity: 1;
   }
 }
-::-moz-selection {
-  /* Code for Firefox */
-  color: rgb(0, 255, 17);
-  background: rgba(0, 0, 0, 0.05);
-}
-::-webkit-selection {
-  /* Code for Chrome and Safari */
-  color: rgb(0, 255, 17);
-  background: rgba(0, 0, 0, 0.05);
-}
-::selection {
-  color: rgb(0, 255, 17);
-  background: rgba(0, 0, 0, 0.05);
+
+
+@media only screen and (max-width: 600px) {
+  .questionWrapper {
+    width: 75%;
+  }
 }
