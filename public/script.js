@@ -9,7 +9,7 @@ function startGame() {
     .then((response) => response.json())
     .then((data) => {
       userId = data.userId;
-      console.log("User ID:", userId);
+      console.log("ID používateľa:", userId);
       fetch("/categories")
         .then((response) => response.json())
         .then((data) => {
@@ -23,9 +23,9 @@ function startGame() {
           updateCategoryStatus();
         })
         .catch((error) => {
-          console.error("Error fetching categories:", error);
+          console.error("Chyba pri načítaní kategórií:", error);
           document.getElementById("question").innerText =
-            "Error loading categories. Please try again later.";
+            "Chyba pri načítaní kategórií. Skúste to prosím neskôr.";
         });
     });
 }
@@ -49,15 +49,15 @@ function updateCategoryStatus() {
       }
       if (allExhausted) {
         document.getElementById("question").innerText =
-          "All categories are exhausted. No more questions available.";
+          "Všetky kategórie sú vyčerpané. Žiadne ďalšie otázky nie sú k dispozícii.";
         document.querySelector("button").disabled = true;
         document.getElementById("resetButton").style.display = "block";
       }
     })
     .catch((error) => {
-      console.error("Error updating category status:", error);
+      console.error("Chyba pri aktualizácii stavu kategórií:", error);
       document.getElementById("question").innerText =
-        "Error updating category status. Please try again later.";
+        "Chyba pri aktualizácii stavu kategórií. Skúste to prosím neskôr.";
     });
 }
 
@@ -79,12 +79,12 @@ function getQuestion() {
       .then((data) => {
         questionDiv.innerText = data.question;
         questionDiv.style.opacity = 1; // Start fade-in
-        if (data.question.includes("No more questions available")) {
+        if (data.question.includes("Žiadne ďalšie otázky nie sú k dispozícii")) {
           updateCategoryStatus();
         }
       })
       .catch((error) => {
-        questionDiv.innerText = `Error: ${error.message}`;
+        questionDiv.innerText = `Chyba: ${error.message}`;
         questionDiv.style.opacity = 1; // Start fade-in
       });
   }, 1000);
@@ -95,14 +95,14 @@ function resetQuestions() {
     .then((response) => response.json())
     .then((data) => {
       document.getElementById("question").innerText =
-        "Select a category and click the button to get a question!";
+        "Vyberte kategóriu a kliknite na tlačidlo, aby ste dostali otázku!";
       document.querySelector("button").disabled = false;
       document.getElementById("resetButton").style.display = "none";
       updateCategoryStatus();
     })
     .catch((error) => {
-      console.error("Error resetting questions:", error);
+      console.error("Chyba pri resetovaní otázok:", error);
       document.getElementById("question").innerText =
-        "Error resetting questions. Please try again later.";
+        "Chyba pri resetovaní otázok. Skúste to prosím neskôr.";
     });
 }

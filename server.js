@@ -59,7 +59,7 @@ app.get("/question", (req, res, next) => {
   try {
     const category = req.query.category;
     if (!category || !req.session.questions[category]) {
-      const err = new Error("Invalid category");
+      const err = new Error("Neplatná kategória");
       err.status = 400;
       throw err;
     }
@@ -69,8 +69,8 @@ app.get("/question", (req, res, next) => {
       const message = Object.values(req.session.exhaustedCategories).every(
         (status) => status
       )
-        ? "All categories are exhausted. No more questions available."
-        : "No more questions available in this category. Please choose a different category.";
+        ? "Všetky kategórie sú vyčerpané. Žiadne ďalšie otázky nie sú k dispozícii."
+        : "Žiadne ďalšie otázky nie sú k dispozícii v tejto kategórii. Prosím, vyberte inú kategóriu.";
       return res.json({ question: message });
     }
 
@@ -95,7 +95,7 @@ app.post("/reset", (req, res, next) => {
       req.session.askedQuestions[category] = [];
       req.session.exhaustedCategories[category] = false;
     }
-    res.json({ message: "Questions have been reset." });
+    res.json({ message: "Otázky boli resetované :)" });
   } catch (err) {
     next(err);
   }
@@ -106,7 +106,7 @@ app.use((err, req, res, next) => {
   console.error(err.stack); // Log the error stack for debugging
   res.status(err.status || 500).json({
     error: {
-      message: err.message || "Internal Server Error",
+      message: err.message || "Interná chyba servera",
     },
   });
 });
